@@ -1,0 +1,61 @@
+#include "symbol.h"
+
+symbol::symbol()
+{
+	name = NULL;
+	bonus = 0;
+	hasBonus = false;
+}
+symbol::~symbol()
+{
+	delete[] name;
+	name = NULL;
+	bonus = 0;
+}	
+char* symbol::getName()
+{
+	return name;
+}
+
+void symbol::setName(char* newName)
+{
+	int length = strLength(newName);
+	if(name!=NULL)
+	{
+		delete[] name;
+	}
+	name = new char[length + 1];
+	strCpy(name, newName);
+}
+
+int symbol::getbonus()
+{
+	return bonus;
+}
+void symbol::setbonus(int newBonus)
+{
+	bonus = newBonus;
+	if(bonus==0)		
+	{
+		hasBonus=false;	
+	}
+	else
+	{
+		hasBonus=true;
+	}
+}
+
+void symbol::printSym()
+{
+	cout << name << " " << bonus << " ";
+if(hasBonus)
+{
+		cout << "True" << "\t";
+}	else
+	{
+		cout << "False" << "\t";			
+	}			
+	cout << endl;
+}	
+
+

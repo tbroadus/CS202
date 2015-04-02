@@ -1,0 +1,12 @@
+all: slot
+
+slot: slotproject5.cpp symbol.o stringLib.o
+	g++ slotproject5.cpp stringLib.o symbol.o -o slot
+
+symbol.o: symbol.cpp
+	g++ -c symbol.cpp
+
+stringLib.o: stringLib.cpp
+	g++ -c stringLib.cpp
+
+clean: rm -rf *.o slot

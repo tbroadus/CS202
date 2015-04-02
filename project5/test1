@@ -1,0 +1,54 @@
+Script started on Mon 02 Mar 2015 02:33:07 PM PST
+tbroadus@ecc-d-09vm14:~/project5$ ./slot
+Please type in the filename, hint, it is symbols
+symbols
+Computer Science 202
+====================
+1. Put in name of file and read in file
+2. Populate a new slot machine
+3. Print the machine configuration to screen
+4. Pick a stop
+5. Quit program
+2
+Computer Science 202
+====================
+1. Put in name of file and read in file
+2. Populate a new slot machine
+3. Print the machine configuration to screen
+4. Pick a stop
+5. Quit program
+3
+lemon 0 False	
+7 10 True	
+bell 5 True	
+orange 0 False	
+7 10 True	
+lemon 0 False	
+lemon 0 False	
+cherry 1 True	
+7 10 True	
+cherry 1 True	
+Computer Science 202
+====================
+1. Put in name of file and read in file
+2. Populate a new slot machine
+3. Print the machine configuration to screen
+4. Pick a stop
+5. Quit program
+4
+pick a stop for row between 1-10
+8
+cherry 1 True	
+
+Computer Science 202
+====================
+1. Put in name of file and read in file
+2. Populate a new slot machine
+3. Print the machine configuration to screen
+4. Pick a stop
+5. Quit program
+5
+tbroadus@ecc-d-09vm14:~/project5$ exit
+exit
+
+Script done on Mon 02 Mar 2015 02:33:50 PM PST
